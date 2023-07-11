@@ -19,6 +19,7 @@ jobs:
       - name: Deploy
         uses: crazy-max/ghaction-github-pages@v1
         with:
+          branch: main
           target_branch: gh-pages
           build_dir: build
         env:
